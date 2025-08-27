@@ -1,0 +1,136 @@
+/* Estilo base más juguetón */
+body {
+  font-family: 'Comic Sans MS', 'Segoe UI', cursive, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+  color: #333;
+}
+
+/* Encabezado divertido */
+header {
+  text-align: center;
+  padding: 2rem;
+  background-color: #fff;
+  border-bottom: 5px dotted #ccc;
+}
+
+header img {
+  display: block;
+  margin: 0 auto 1rem;
+  max-width: 280px;
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.3));
+  transition: transform 0.4s ease-in-out;
+}
+
+header img:hover {
+  transform: rotate(-3deg) scale(1.08);
+}
+
+header h1 {
+  font-size: 3rem;
+  margin: 0.5rem 0;
+  color: #222;
+  letter-spacing: 3px;
+  text-shadow: 1px 1px #999;
+}
+
+header p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Navegación con más onda */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  background-color: #333;
+  padding: 1rem;
+  border-bottom: 4px dashed #aaa;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: all 0.2s ease;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background-color: #444;
+}
+
+nav a:hover {
+  background-color: #666;
+  color: #ffd700;
+  transform: scale(1.1);
+}
+
+/* Contenido con tarjetas */
+main {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.07);
+  border-radius: 12px;
+}
+
+/* Títulos con más personalidad */
+.section-title {
+  color: #111;
+  font-size: 2rem;
+  border-left: 6px solid #999;
+  padding-left: 10px;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+/* Lista del equipo divertida */
+.team ul {
+  list-style: none;
+  padding: 0;
+}
+
+.team li {
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+  position: relative;
+  color: #444;
+  font-size: 1rem;
+}
+
+.team li::before {
+  content: "💥";
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* Estilo para imágenes juguetonas */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  margin: 1rem 0;
+}
+
+img:hover {
+  transform: rotate(2deg) scale(1.05);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* Footer relajado */
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #222;
+  color: #eee;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+  border-top: 4px dotted #555;
+  font-style: italic;
+}
